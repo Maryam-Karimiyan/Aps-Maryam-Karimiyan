@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Univercity Website Design</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+      integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <a href="index.html"><img src="./eduford_img/logo.png" /></a>
+        <div class="nav-links" id="navlinks">
+          <i class="fas fa-times" onclick="hideMenue()"></i>
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Course</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenue()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>World's Biggest Univercity</h1>
+        <p>
+          Learn How To Make A Complete Website Using HTML and CSS, Complete HTML
+          and CSS<br />
+          Multiple Pages Website Design Tutorial Step by Step
+        </p>
+        <a href="" class="hero-btn">Visit Us To Know More</a>
+      </div>
+    </header>
+
+    <!-- ----course -->
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum
+        provident, ut sint esse eum architecto soluta libero quis quidem quo
+        dolorum quos eaque iusto consectetur, eius non itaque, natus commodi.
+      </p>
+      <div class="row">
+        <div class="course-col">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste sed
+            at illum inventore deserunt sapiente vel. Fugit impedit vel modi
+            nulla fugiat consequatur eaque, veritatis corporis quo ipsum quae
+            laudantium.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste sed
+            at illum inventore deserunt sapiente vel. Fugit impedit vel modi
+            nulla fugiat consequatur eaque, veritatis corporis quo ipsum quae
+            laudantium.
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste sed
+            at illum inventore deserunt sapiente vel. Fugit impedit vel modi
+            nulla fugiat consequatur eaque, veritatis corporis quo ipsum quae
+            laudantium.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- -----campus -->
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis
+        vitae veniam sequi officia nobis rem dicta! Corporis odit recusandae
+        quos consequuntur debitis reprehenderit, modi magnam maiores beatae
+        necessitatibus deserunt id.
+      </p>
+      <div class="row">
+        <div class="campus-col">
+          <img src="./eduford_img/london.png" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="./eduford_img/newyork.png" />
+          <div class="layer">
+            <h3>NEW YORK</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="./eduford_img/washington.png" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------java -->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+
+      function showMenue() {
+        navlinks.style.right = "0";
+      }
+      function hideMenue() {
+        navlinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
